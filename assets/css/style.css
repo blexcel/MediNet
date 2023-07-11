@@ -125,9 +125,8 @@ body{
     list-style-type: none;
     color: #ffffff;
 }
-#arrow{
+#white-arrow{
     width: 10px;
-    /* padding-top: 10px; */
     margin-left: 3px;
 }
 .specialist-section{
@@ -137,6 +136,9 @@ body{
 }
 .specialist-section .specialist-txt{
     width: 50%;
+    text-align: justify;
+}
+.specialist-section .specialist-txt p{
     text-align: justify;
 }
 .specialist-section .specialist-txt h3, span{
@@ -159,23 +161,12 @@ body{
     width: 50%;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 200px;
+    margin-left: 100px;
 }
 .specialist-section .specialist-img .specialist-cnt{
     width: 200px;
     height: 200px;
-}
-#heart{
-    width: 60px;
-    height: 60px;
-}
-#teeth{
-    width: 60px;
-    height: 50px;
-}
-#brain{
-    width: 60px;
-    height: 60px;
+    text-align: center;
 }
 #rating{
    margin-top: 20px; 
@@ -184,18 +175,33 @@ body{
 
 }
 .doctors .doctors-team{
-
+    text-align: center;
+}
+.doctors .doctors-team h3, span{
+    color: #228b22;
 }
 .doctors .doctors-img{
     display: flex;
     width: 100%;
 
 }
-.doctors .doctors-img .doctor-1{
-    width: 10px;
-    height: 10px;
-
+.doctor h3, p{
+    text-align: center;
 }
-.doctors .doctors-more{
+.doctor{
+    padding: 30px;
+}
 
+.doctors .doctors-more{
+    text-align: center;
+}
+#green-arrow{
+    width: 10px;
+    margin-left: 3px;
+}
+#straight-line{
+    background-color: #228b22;
+    width: 110px;
+    height: 3px;
+    margin-left: 45%;
 }
