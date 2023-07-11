@@ -1,0 +1,201 @@
+body{
+    margin: o;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.heading{
+    display: flex;
+    margin-bottom: 100px;
+}
+.logo{
+    display: flex;
+}
+.logo-img{
+    margin-top: 10px;
+}
+.logo-txt{
+   color: #228b22;
+}
+
+.navbar{
+    margin-left: 180px;
+    margin-top: 10px;
+   
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style-type: none;
+    margin: 0 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+.contact{
+    padding: 15px;
+    width: 100px;
+    text-align: center;
+    background-color: #228b22;
+    margin-left: 260px;
+    border-radius: 5px;
+    align-self: center;
+    opacity: 0.8;
+}
+.contact a{
+    text-decoration: none;
+    color: #ffffff;
+    list-style-type: none;
+}
+.hero-img{
+    background-image: url(../images/usman-yousaf-SakqLf78KVo-unsplash.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    /* height: 800px; */
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+.hero-txt{
+    width: 50%;
+}
+.hero-txt h1{
+    font-weight: bold;
+    font-size: 65px;
+}
+.hero-txt h1 span{
+    color: #228b22;
+}
+.hero-img button{
+    background-color: #228b22;
+    padding: 15px;
+    width: 200px;
+    border-radius: 5px;
+    opacity: 0.8;
+    border-style: none;
+}
+.hero-img button a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffffff;
+    
+}
+.med-services{
+    display: flex;
+    width:  100%;
+    justify-content: space-between;
+}
+.service-box{
+    width: 200px;
+    padding: 15px;
+}
+.msn-section{
+    display: flex;
+    margin-top: 50px;
+}
+.msn-section .msn-img{
+    width: 50%;
+}
+.msn-section .msn-img img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+.msn-section .msn-txt{
+    width: 50%;
+    padding-top: 100px;
+}
+.msn-section .msn-txt h3, span{
+    color: #228b22;
+}
+.msn-section .msn-txt button{
+    background-color: #228b22;
+    padding: 15px;
+    width: 120px;
+    border-radius: 5px;
+    opacity: 0.8;
+    border-style: none;
+}
+.msn-section .msn-txt button a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffffff;
+}
+#arrow{
+    width: 10px;
+    /* padding-top: 10px; */
+    margin-left: 3px;
+}
+.specialist-section{
+    display: flex;
+    margin-top: 80px;
+    width: 100%;
+}
+.specialist-section .specialist-txt{
+    width: 50%;
+    text-align: justify;
+}
+.specialist-section .specialist-txt h3, span{
+    color: #228b22;
+}
+.specialist-section .specialist-txt button{
+    background-color: #228b22;
+    padding: 15px;
+    width: 120px;
+    border-radius: 5px;
+    opacity: 0.8;
+    border-style: none;
+}
+.specialist-section .specialist-txt button a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffffff;
+}
+.specialist-section .specialist-img{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+}
+.specialist-section .specialist-img .specialist-cnt{
+    width: 200px;
+    height: 200px;
+}
+#heart{
+    width: 60px;
+    height: 60px;
+}
+#teeth{
+    width: 60px;
+    height: 50px;
+}
+#brain{
+    width: 60px;
+    height: 60px;
+}
+#rating{
+   margin-top: 20px; 
+}
+.doctors{
+
+}
+.doctors .doctors-team{
+
+}
+.doctors .doctors-img{
+    display: flex;
+    width: 100%;
+
+}
+.doctors .doctors-img .doctor-1{
+    width: 10px;
+    height: 10px;
+
+}
+.doctors .doctors-more{
+
+}
