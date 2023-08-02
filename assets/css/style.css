@@ -15,6 +15,11 @@ body{
 }
 .logo-img{
     margin-top: 10px;
+    
+}
+.logo-img img{
+    width: 37px;
+    height: 37px;
 }
 .logo-txt{
    color: #228b22;
@@ -70,6 +75,9 @@ body{
 .hero-txt h1 span{
     color: #228b22;
 }
+.hero-txt p{
+    text-align: justify;
+}
 .hero-img button{
     background-color: #228b22;
     padding: 15px;
@@ -96,6 +104,7 @@ body{
 .msn-section{
     display: flex;
     margin-top: 50px;
+    justify-content: space-between;
 }
 .msn-section .msn-img{
     width: 50%;
@@ -108,6 +117,9 @@ body{
 .msn-section .msn-txt{
     width: 50%;
     padding-top: 100px;
+}
+.msn-section .msn-txt p{
+    text-align: justify;
 }
 .msn-section .msn-txt h3, span{
     color: #228b22;
@@ -204,4 +216,89 @@ body{
     width: 110px;
     height: 3px;
     margin-left: 45%;
+    margin-bottom: 20px;
+}
+.footer{
+    position: absolute;
+    background-color: #228b22;
+    width: 100%;
+    height: auto;
+    margin-left: center;
+}
+.footer .footer-content{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 30px;
+    
+}
+.footer .footer-content .footer-logo{
+   width: 33%;
+   /* margin-top: 10px; */
+}
+.footer .footer-content .footer-logo .logo .logo-img img{
+    color: #ffffff;
+    width: 37px;
+    height: 37px;
+}
+.footer .footer-content .footer-logo .logo .logo-txt{
+    color: #ffffff;
+    margin-left: 10px;
+}
+.footer .footer-content .footer-logo p{
+    text-align: justify;
+    color: white;
+    width: 324px;
+}
+.footer .footer-content .footer-social-media{
+    width: 33%;
+}
+.footer .footer-content .footer-social-media .title{
+    text-align: center;
+    width: 283px;
+    height: 27px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 22px;
+}
+.footer .footer-content .footer-contact{
+    width: 289px;
+    margin-top: 30px;
+}
+.footer .footer-content .footer-contact .contact-footer{
+    display: flex;
+    /* padding-top: 50px; */
+}
+.footer .footer-content .footer-contact .location{
+    display: flex;
+}
+.footer .footer-content .footer-contact .email{
+    display: flex;
+}
+.footer .footer-content .footer-contact p{
+    text-align: justify;
+    margin-top: 0;
+    margin-left: 25px;
+    color: #ffffff;
+}
+.white-straight-line{
+    width: 1150px;
+    background-color: #ffffff;
+    height: 3px;
+    margin-left: 100px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.trademark{
+    display: flex;
+    width: 1150px;
+    justify-content: space-between;
+    color: #ffffff;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+.trademark .trademark-policy{
+    /* margin-left: 100px; */
+}
+.trademark .trademark-policy .year{
+    /* margin-right: 100px; */
 }
